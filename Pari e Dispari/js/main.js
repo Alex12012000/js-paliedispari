@@ -4,12 +4,12 @@ let userChoice = evenOddInput.toLowerCase();
 // Chiedo all'utente un numero da 1 a 5
 const evenOddUserNmber = parseInt(prompt('Scegli un numero da 1 a 5'));
 // Variabile che racchiude ai il numero random generato dalla funzione (numero che userà il computer per giocare contro l'utente)
-const aiResult = aiEvenOdd(1, 5)
+const aiResult = aiEvenOdd(1, 5);
 // Risultato fra il numero dell'utente e quello del computer
 const finalResult = evenOddUserNmber + aiResult;
 
-console.log(evenOddUserNmber)
-console.log(aiResult)
+console.log(evenOddUserNmber);
+console.log(aiResult);
 console.log(finalResult);
 
 // Se l'utente ha scelto pari e il risultato finale è divisibile per 2, l'utente vince
@@ -20,7 +20,7 @@ if(userChoice === 'pari' && finalResult % 2 === 0) {
 } else if (userChoice === 'dispari' && finalResult % 2 !== 0) {
     alert('Dispari! Hai Vinto!');
 } else {
-    alert('Hai perso!')
+    alert('Hai perso!');
 }
 
 // Funzione che calcola un numero casuale per il computer
