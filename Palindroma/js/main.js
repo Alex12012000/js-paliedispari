@@ -1,7 +1,7 @@
 // Array con parole palindrome
-const palindromeArray = ['otto', 'anna']
+const palindromeArray = ['otto', 'anna'];
 // Chiedo all'utente di dirmi una parola
-const userName = prompt('dammi un nome')
+const userName = prompt('dammi un nome');
 
 // Se la parola inserita dall'utente è palindroma (booleano = true) la inserisco nell'array delle parole palindrome
 if (palindrome(userName)) {
@@ -9,7 +9,7 @@ if (palindrome(userName)) {
     palindromeArray.push(userName);
 } else {
     // altrimenti alert
-    alert('Non è una parola palindroma!')
+    alert('Non è una parola palindroma!');
 }
 
 // Console log dell'array finale
